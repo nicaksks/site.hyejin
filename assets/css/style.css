@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'nica';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/KGCorneroftheSky.ttf") format('truetype');
+}
+
+body {
+	font-family: nica;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../imgs/background.png");
+	font-size: 16px;
+}
+
+.button {
+	padding: 10px;
+	background: #ffddfe;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	transition: background 0.2s;
+}
+
+.button1 {
+	background-image: url("../imgs/addme.png");
+} 
+
+.button2 {
+	background-image: url("../imgs/support.png");
+}
+
+.button3 {
+	background-image: url("../imgs/commands.png");
+}
+
+.button:hover {
+	background: #FFCC00;
+}
+
+p {
+	margin: 2em 0;
+}
